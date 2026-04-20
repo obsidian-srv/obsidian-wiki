@@ -12,7 +12,7 @@ title: 🕹️ Игровые механики 1 сезона
 
 [🎤 PlasmoVoice](./igrovye-mekhaniki-1-sezona/2-plasmovoice)
 
-[🌟 Невидимые рамки и свет](./igrovye-mekhaniki-1-sezona/nevidimye-ramki-i-svet)
+[🌟 Невидимые рамки и свет](./igrovye-mekhaniki-1-sezona/3-nevidimye-ramki-i-svet)
 
 [💸 Магазины](./igrovye-mekhaniki-1-sezona/magaziny)
 
