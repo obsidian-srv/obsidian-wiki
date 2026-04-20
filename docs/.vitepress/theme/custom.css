@@ -13,12 +13,17 @@
   --vp-c-brand-3: #5244c8;
   --vp-c-brand-soft: rgba(124, 106, 247, 0.14);
 
+  --vp-c-bg-soft: #f0e4fc;
+
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-soft: var(--vp-c-brand-soft);
 
   --vp-c-inline: #0b0b0c;
   --vp-c-inline-border: rgba(0, 0, 0, 0.5);
+
+  --vp-font-family-base: "Inter", sans-serif;
+  --vp-font-family-mono: "IBM Plex Mono", "JetBrains Mono", monospace;
 }
 
 .dark {
@@ -91,6 +96,12 @@
   max-width: 1200px;
 }
 
+.VPDoc .content-container {
+  max-width: 100% !important;
+  padding-left: 45px !important;
+}
+
+
 .vp-doc h1 {
   border-bottom: none;
   padding-bottom: 0;
@@ -102,6 +113,10 @@
   margin-top: 2rem; /* если нужен отступ */
 }
 
+.vp-doc strong {
+  font-weight: 800;
+}
+
 /* ── Inline code — как в GitBook ────────────────── */
 .vp-doc :not(pre) > code {
   background-color: var(--vp-c-bg-mute);
@@ -110,7 +125,7 @@
   padding: 2px 6px;
   font-size: 0.85em;
   color: var(--vp-c-inline);
-  font-family: 'IBM Plex Mono', 'JetBrains Mono', monospace;
+  font-family: var(--vp-font-family-mono);
 }
 
 /* ── Code blocks ───────────────────────────────── */
@@ -121,17 +136,32 @@
 
 /* ── Info/Warning/Tip callouts (circle-info стиль) */
 .vp-doc .custom-block.info {
-  background-color: var(--vp-c-brand-soft);
-  border-color: var(--vp-c-brand-2);
+  background-color: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-bg-mute);
 }
 
 .vp-doc .custom-block.info .custom-block-title {
   color: var(--vp-c-brand-1);
 }
+.vp-doc .custom-block.info .custom-block-title {
+  display: none;
+}
+
+.vp-doc .custom-block.info p {
+  margin-top: 0px;
+}
 
 .vp-doc .custom-block.warning {
   background-color: rgba(251, 191, 36, 0.1);
   border-color: #f59e0b;
+}
+
+.vp-doc .custom-block.warning .custom-block-title {
+  display: none;
+}
+
+.vp-doc .custom-block.warning p {
+  margin-top: 0px;
 }
 
 .vp-doc .custom-block.danger {
@@ -312,7 +342,7 @@
 }
 
 /* Анимация только для обычных ссылок */
-.vp-doc a:not([target="_blank"])::after {
+.vp-doc a:not([target="_blank"]):not(.card-item)::after {
   content: '';
   position: absolute;
   left: 0;
@@ -323,7 +353,7 @@
   transition: width 0.25s ease;
 }
 
-.vp-doc a:not([target="_blank"]):hover::after {
+.vp-doc a:not([target="_blank"]):not(.card-item):hover::after {
   width: 100%;
 }
 
@@ -390,12 +420,12 @@ body {
 .hover-text-test {
   display: block;
   color: #b6b4bb;
-  line-height: 28px;
+  line-height: 22px;
   margin: 0px;
   overflow-wrap: anywhere;
-  font-family: "Raleway", "Raleway Fallback", system-ui, arial;
-  font-size: 18px;
-  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.1px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .VPNavBarTitle .logo {
@@ -406,4 +436,61 @@ body {
   transform: scale(1.75) translateX(-25%);
 }
 
+/* Контейнер изображения */
+.vp-doc figure {
+  text-align: center;
+  margin: 32px 0;
+}
 
+/* Картинка */
+.vp-doc figure img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* Подпись */
+.vp-doc figcaption {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--vp-c-text-2); /* стандартный приглушённый цвет VitePress */
+  opacity: 0.75;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border: 1px solid var(--vp-c-inline-border);
+  border-radius: 10px;
+  color: var(--vp-c-text-1) !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  background-color: var(--vp-c-bg-soft);
+}
+
+.card-item::after {
+  content: '->';
+  font-size: 1.2rem;
+  color: var(--vp-c-text-3);
+}
+
+.card-item:hover {
+  border-color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-soft);
+  transform: none !important;
+}
+
+.vp-doc figure img {
+  display: block;
+  margin: 0 auto;
+}

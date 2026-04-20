@@ -7,6 +7,20 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com' }],
+    ['link', { 
+      href: 'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap', 
+      rel: 'stylesheet' 
+    }],
+    ['link', { 
+      href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap', 
+      rel: 'stylesheet' 
+    }],
+    ['link', { 
+      href: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap', 
+      rel: 'stylesheet' 
+    }],
   ],
 
   themeConfig: {
@@ -22,48 +36,53 @@ export default defineConfig({
       {
         text: '📖 Общая Информация',
         items: [
-          { text: '💻 О сервере', link: '/' },
-          { text: '❓ Как зайти на сервер?', link: '/obshaya-informaciya/kak-zaiti-na-server' },
-          { text: '🛠️ Представители сервера', link: '/obshaya-informaciya/predstaviteli-servera' },
+          { text: '💻 О сервере', link: '/wiki/' },
+          { text: '❓ Как зайти на сервер?', link: '/wiki/kak-zaiti-na-server' },
+          { text: '🛠️ Представители сервера', link: '/wiki/predstaviteli-servera' },
         ],
       },
       {
         text: '🌍 Игровая информация',
         items: [
           {
-            text: '🕹️ Игровые механики 1 сезона',
+            text: '🕹️ Игровые механики "1 сезона"', link: '/wiki/igrovye-mekhaniki-1-sezona',
             collapsed: true,
             items: [
-              { text: '💬 Игровой чат', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/1-igrovoi-chat' },
-              { text: '🎤 PlasmoVoice', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/2-plasmovoice' },
-              { text: '🌟 Невидимые рамки и свет', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/3-nevidimye-ramki-i-svet' },
-              { text: '💸 Магазины', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/4-magaziny' },
-              { text: '🏤 Кланы', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/klany' },
-              { text: '🍺 Различные напитки', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/5-razlichnye-napitki' },
-              { text: '🎂 Различная еда', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/6-razlichnaya-eda' },
-              { text: '🪓 Авто срубка деревьев', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/avto-srubka-derevev' },
-              { text: '⛓️ Цепочки', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/cepochki' },
-              { text: '🌄 Кастомная генерация', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/kastomnaya-generaciya' },
-              { text: '🗺️ Карта мира', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/karta-mira' },
-              { text: '🎅 Скины', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/skiny' },
+              { text: '💬 Игровой чат', link: '/wiki/1-igrovoi-chat' },
+              { text: '🎤 PlasmoVoice', link: '/wiki/2-plasmovoice' },
+              { text: '🌟 Невидимые рамки и свет', link: '/wiki/3-nevidimye-ramki-i-svet' },
+              { text: '💸 Магазины', link: '/wiki/4-magaziny' },
+              { text: '🏤 Кланы', link: '/wiki/5-klany' },
+              { text: '🍺 Различные напитки', link: '/wiki/6-razlichnye-napitki' },
+              { text: '🎂 Различная еда', link: '/wiki/7-razlichnaya-eda' },
+              { text: '🪓 Авто срубка деревьев', link: '/wiki/8-avto-srubka-derevev' },
+              { text: '⛓️ Цепочки', link: '/wiki/9-cepochki' },
+              { text: '🌄 Кастомная генерация', link: '/wiki/10-kastomnaya-generaciya' },
+              { text: '🗺️ Карта мира', link: '/wiki/11-karta-mira' },
+              { text: '🎅 Скины', link: '/wiki/12-skiny' },
             ],
           },
           {
-            text: '🕹️ Игровые механики межсезонья I',
+            text: '🕹️ Игровые механики "межсезонья I"', link: '/wiki/igrovye-mekhaniki-mezhsezonya-i',
             collapsed: true,
             items: [
-              { text: '🏳️ Страны', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/strany' },
-              { text: '🚀 Система ракет', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/sistema-raket' },
-              { text: '🗺️ Карта мира', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/karta-mira' },
-              { text: '🚃 Скоростные вагонетки', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/skorostnye-vagonetki' },
-              { text: '💬 Игровой чат', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/igrovoi-chat' },
-              { text: '🎤 PlasmoVoice', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/plasmovoice' },
-              { text: '🌟 Невидимые рамки и свет', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/nevidimye-ramki-i-svet' },
-              { text: '🎅 Скины', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/skiny' },
-              { text: '⚠️ Небольшие изменения геймплея', link: '/igrovaya-informaciya/igrovye-mekhaniki-mezhsezonya-i/nebolshie-izmeneniya-geimpleya' },
+              { text: '🏳️ Страны', link: '/wiki/13-strany' },
+              { text: '🚀 Система ракет', link: '/wiki/14-sistema-raket' },
+              { text: '🗺️ Карта мира', link: '/wiki/15-karta-mira' },
+              { text: '🚃 Скоростные вагонетки', link: '/wiki/16-skorostnye-vagonetki' },
+              { text: '💬 Игровой чат', link: '/wiki/17-igrovoi-chat' },
+              { text: '🎤 PlasmoVoice', link: '/wiki/18-plasmovoice' },
+              { text: '🌟 Невидимые рамки и свет', link: '/wiki/19-nevidimye-ramki-i-svet' },
+              { text: '🎅 Скины', link: '/wiki/20-skiny' },
+              { text: '⚠️ Небольшие изменения геймплея', link: '/wiki/21-nebolshie-izmeneniya-geimpleya' },
             ],
           },
-          { text: '📩 Тикеты', link: '/igrovaya-informaciya/tikety' },
+        ],
+      },
+      {
+        text: '🌍 Прочее',
+        items: [
+          { text: '📩 Тикеты', link: '/wiki/tikety' },
         ],
       },
     ],
