@@ -34,7 +34,7 @@ export default defineConfig({
             text: '🕹️ Игровые механики 1 сезона',
             collapsed: true,
             items: [
-              { text: '💬 Игровой чат', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/igrovoi-chat' },
+              { text: '💬 Игровой чат', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/1-igrovoi-chat' },
               { text: '🎤 PlasmoVoice', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/plasmovoice' },
               { text: '🌟 Невидимые рамки и свет', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/nevidimye-ramki-i-svet' },
               { text: '💸 Магазины', link: '/igrovaya-informaciya/igrovye-mekhaniki-1-sezona/magaziny' },
