@@ -14,13 +14,13 @@ title: 🕹️ Игровые механики 1 сезона
 
 [🌟 Невидимые рамки и свет](./igrovye-mekhaniki-1-sezona/3-nevidimye-ramki-i-svet)
 
-[💸 Магазины](./igrovye-mekhaniki-1-sezona/magaziny)
+[💸 Магазины](./igrovye-mekhaniki-1-sezona/4-magaziny)
 
 [🏤 Кланы](./igrovye-mekhaniki-1-sezona/klany)
 
-[🍺 Различные напитки](./igrovye-mekhaniki-1-sezona/razlichnye-napitki)
+[🍺 Различные напитки](./igrovye-mekhaniki-1-sezona/5-razlichnye-napitki)
 
-[🎂 Различная еда](./igrovye-mekhaniki-1-sezona/razlichnaya-eda)
+[🎂 Различная еда](./igrovye-mekhaniki-1-sezona/6-razlichnaya-eda)
 
 [🪓 Авто срубка деревьев](./igrovye-mekhaniki-1-sezona/avto-srubka-derevev)
 
