@@ -8,7 +8,7 @@ title: 🕹️ Игровые механики 1 сезона
 
 <div class="mechanics-grid">
 
-[💬 Игровой чат](./igrovye-mekhaniki-1-sezona/igrovoi-chat)
+[💬 Игровой чат](./igrovye-mekhaniki-1-sezona/1-igrovoi-chat)
 
 [🎤 PlasmoVoice](./igrovye-mekhaniki-1-sezona/plasmovoice)
 
