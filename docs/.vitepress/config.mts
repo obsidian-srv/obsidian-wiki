@@ -28,64 +28,85 @@ export default defineConfig({
     siteTitle: 'ObsidianMC',
 
     nav: [
+      { text: 'Вики', link: '/wiki/' },
+      { text: 'Правила', link: '/rules/' },
       { text: 'Discord', link: 'https://discord.obsidianmc.ru/' },
       { text: 'Map', link: 'https://map.obsidianmc.ru/' },
     ],
 
-    sidebar: [
-      {
-        text: '📖 Общая Информация',
-        items: [
-          { text: '💻 О сервере', link: '/wiki/' },
-          { text: '❓ Как зайти на сервер?', link: '/wiki/kak-zaiti-na-server' },
-          { text: '🛠️ Представители сервера', link: '/wiki/predstaviteli-servera' },
-        ],
-      },
-      {
-        text: '🌍 Игровая информация',
-        items: [
-          {
-            text: '🕹️ Игровые механики "1 сезона"', link: '/wiki/igrovye-mekhaniki-1-sezona',
-            collapsed: true,
-            items: [
-              { text: '💬 Игровой чат', link: '/wiki/1-igrovoi-chat' },
-              { text: '🎤 PlasmoVoice', link: '/wiki/2-plasmovoice' },
-              { text: '🌟 Невидимые рамки и свет', link: '/wiki/3-nevidimye-ramki-i-svet' },
-              { text: '💸 Магазины', link: '/wiki/4-magaziny' },
-              { text: '🏤 Кланы', link: '/wiki/5-klany' },
-              { text: '🍺 Различные напитки', link: '/wiki/6-razlichnye-napitki' },
-              { text: '🎂 Различная еда', link: '/wiki/7-razlichnaya-eda' },
-              { text: '🪓 Авто срубка деревьев', link: '/wiki/8-avto-srubka-derevev' },
-              { text: '⛓️ Цепочки', link: '/wiki/9-cepochki' },
-              { text: '🌄 Кастомная генерация', link: '/wiki/10-kastomnaya-generaciya' },
-              { text: '🗺️ Карта мира', link: '/wiki/11-karta-mira' },
-              { text: '🎅 Скины', link: '/wiki/12-skiny' },
-            ],
-          },
-          {
-            text: '🕹️ Игровые механики "межсезонья I"', link: '/wiki/igrovye-mekhaniki-mezhsezonya-i',
-            collapsed: true,
-            items: [
-              { text: '🏳️ Страны', link: '/wiki/13-strany' },
-              { text: '🚀 Система ракет', link: '/wiki/14-sistema-raket' },
-              { text: '🗺️ Карта мира', link: '/wiki/15-karta-mira' },
-              { text: '🚃 Скоростные вагонетки', link: '/wiki/16-skorostnye-vagonetki' },
-              { text: '💬 Игровой чат', link: '/wiki/17-igrovoi-chat' },
-              { text: '🎤 PlasmoVoice', link: '/wiki/18-plasmovoice' },
-              { text: '🌟 Невидимые рамки и свет', link: '/wiki/19-nevidimye-ramki-i-svet' },
-              { text: '🎅 Скины', link: '/wiki/20-skiny' },
-              { text: '⚠️ Небольшие изменения геймплея', link: '/wiki/21-nebolshie-izmeneniya-geimpleya' },
-            ],
-          },
-        ],
-      },
-      {
-        text: '🌍 Прочее',
-        items: [
-          { text: '📩 Тикеты', link: '/wiki/tikety' },
-        ],
-      },
-    ],
+    sidebar: {
+      '/wiki/': [
+        {
+          text: '📖 Общая Информация',
+          items: [
+            { text: '💻 О сервере', link: '/wiki/' },
+            { text: '❓ Как зайти на сервер?', link: '/wiki/kak-zaiti-na-server' },
+            { text: '🛠️ Представители сервера', link: '/wiki/predstaviteli-servera' },
+          ],
+        },
+      
+        {
+          text: '🌍 Игровая информация',
+          items: [
+            {
+              text: '🕹️ Игровые механики "1 сезона"', link: '/wiki/igrovye-mekhaniki-1-sezona',
+              collapsed: true,
+              items: [
+                { text: '💬 Игровой чат', link: '/wiki/1-igrovoi-chat' },
+                { text: '🎤 PlasmoVoice', link: '/wiki/2-plasmovoice' },
+                { text: '🌟 Невидимые рамки и свет', link: '/wiki/3-nevidimye-ramki-i-svet' },
+                { text: '💸 Магазины', link: '/wiki/4-magaziny' },
+                { text: '🏤 Кланы', link: '/wiki/5-klany' },
+                { text: '🍺 Различные напитки', link: '/wiki/6-razlichnye-napitki' },
+                { text: '🎂 Различная еда', link: '/wiki/7-razlichnaya-eda' },
+                { text: '🪓 Авто срубка деревьев', link: '/wiki/8-avto-srubka-derevev' },
+                { text: '⛓️ Цепочки', link: '/wiki/9-cepochki' },
+                { text: '🌄 Кастомная генерация', link: '/wiki/10-kastomnaya-generaciya' },
+                { text: '🗺️ Карта мира', link: '/wiki/11-karta-mira' },
+                { text: '🎅 Скины', link: '/wiki/12-skiny' },
+              ],
+            },
+            {
+              text: '🕹️ Игровые механики "межсезонья I"', link: '/wiki/igrovye-mekhaniki-mezhsezonya-i',
+              collapsed: true,
+              items: [
+                { text: '🏳️ Страны', link: '/wiki/13-strany' },
+                { text: '🚀 Система ракет', link: '/wiki/14-sistema-raket' },
+                { text: '🗺️ Карта мира', link: '/wiki/15-karta-mira' },
+                { text: '🚃 Скоростные вагонетки', link: '/wiki/16-skorostnye-vagonetki' },
+                { text: '💬 Игровой чат', link: '/wiki/17-igrovoi-chat' },
+                { text: '🎤 PlasmoVoice', link: '/wiki/18-plasmovoice' },
+                { text: '🌟 Невидимые рамки и свет', link: '/wiki/19-nevidimye-ramki-i-svet' },
+                { text: '🎅 Скины', link: '/wiki/20-skiny' },
+                { text: '⚠️ Небольшие изменения геймплея', link: '/wiki/21-nebolshie-izmeneniya-geimpleya' },
+              ],
+              
+            },
+            {
+              text: '🕹️ Игровые механики "Season 2"', link: '/wiki/igrovye-mekhaniki-season-2',
+              collapsed: true,
+              items: [
+              ],
+            },
+          ],
+        },
+        {
+          text: '🌍 Прочее',
+          items: [
+            { text: '📩 Тикеты', link: '/wiki/tikety' },
+          ],
+        },
+      ],
+      '/rules/': [
+        {
+          text: '📖 Правила',
+          items: [
+            { text: '💻 Немного о правилах', link: '/rules/' },
+            { text: '❓ Правила', link: '/rules/rules' },
+          ],
+        },
+      ]
+    },
 
     search: {
       provider: 'local',

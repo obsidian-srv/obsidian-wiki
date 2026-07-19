@@ -15,13 +15,14 @@ title: 💻 О сервере
 
 <figure><img src="/wiki_edit.png" alt=""></figure>
 
-**Статус сервера:** `Межсезонье`  
+**IP-адрес:** `obsi.pw`  
+**Статус сервера:** `Открыт`  
 **Дата открытия:** `19 июля 2024, 21:00`  
-**Последний вайп:** `19 июля 2024, 21:00`
+**Последний вайп:** `19 июля 2026, 18:00`
 
 ## 🔗 Основные ссылочки
 
-- **Discord:** [**discord.obsidianmc.ru**](https://discord.obsidian2025.pro/)
+- **Discord:** [**obsi.pw/discord**](https://obsi.pw/discord)
 - **HotMC:** [**HotMC**](https://hotmc.ru/minecraft-server-273103)
 - **Boosty:** [**boosty.to/obsidianmc**](https://boosty.to/obsidianmc)
-- **WorldMap:** [**map.obsidianmc.ru**](https://map.obsidian2025.pro/)
+- **WorldMap:** [**obsi.pw/map**](https://obsi.pw/map)
