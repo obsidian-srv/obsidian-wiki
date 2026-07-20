@@ -30,8 +30,8 @@ export default defineConfig({
     nav: [
       { text: 'Вики', link: '/wiki/' },
       { text: 'Правила', link: '/rules/' },
-      { text: 'Discord', link: 'https://discord.obsidianmc.ru/' },
-      { text: 'Map', link: 'https://map.obsidianmc.ru/' },
+      { text: 'Discord', link: '/discord/' },
+      { text: 'Map', link: '/map/' },
     ],
 
     sidebar: {
@@ -168,7 +168,7 @@ export default defineConfig({
     returnToTopLabel: 'Наверх',
 
     footer: {
-      message: 'ObsidianMC Wiki',
+      message: 'Obsidian',
     },
   },
 })

@@ -23,6 +23,5 @@ title: 💻 О сервере
 ## 🔗 Основные ссылочки
 
 - **Discord:** [**obsi.pw/discord**](https://obsi.pw/discord)
-- **HotMC:** [**HotMC**](https://hotmc.ru/minecraft-server-273103)
-- **Boosty:** [**boosty.to/obsidianmc**](https://boosty.to/obsidianmc)
+- **HotMC:** [**obsi.pw/hotmc**](https://obsi.pw/hotmc)
 - **WorldMap:** [**obsi.pw/map**](https://obsi.pw/map)
