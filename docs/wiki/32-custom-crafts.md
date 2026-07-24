@@ -21,5 +21,5 @@ description: >-
 ### <span class="inline-badge badge-purple">**Невидимый источник света:**</span>
 <figure>
   <img src="/lightcraft.png" alt="Гифка с сайта" style="width: 700px">
-  <figcaption>Крафт радио</figcaption>
+  <figcaption>Невидимый свет</figcaption>
 </figure>
