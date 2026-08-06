@@ -3,10 +3,10 @@ layout: false
 head:
   - - meta
     - http-equiv: refresh
-      content: '0; url=https://hotmc.ru'
+      content: '0; url=https://hotmc.ru/minecraft-server-273103'
   - - link
     - rel: canonical
-      href: https://hotmc.ru
+      href: https://hotmc.ru/minecraft-server-273103
 ---
 
 <script setup>
