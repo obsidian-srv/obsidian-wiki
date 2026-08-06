@@ -52,6 +52,7 @@ title: 💬 Игровой чат
 <span class="inline-badge badge-purple">**/chats**</span> - откроет меню настройки чатов. Тут можно включить или отключить отображение глобального и локального чата
 <figure>
   <img src="/exachatchats.png" alt="Гифка с сайта" style="width: 700px">
+  <figcaption>/chats</figcaption>
 </figure>
 
 ## Остальное в чате
