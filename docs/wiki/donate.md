@@ -27,11 +27,14 @@ title: ❤️ Подписка
 </figure>
 
 - Выбор частиц под ногами <span class="inline-badge badge-purple">**/pp**</span>
+:::info
+Не украл, а вдохновился у SkeRich
+:::
 <figure>
   <img src="/donateparticles.png" alt="Гифка с сайта" style="width: 500px">
 </figure>
 
-- Доступ к команде /hat
+- Доступ к команде <span class="inline-badge badge-purple">**/hat**</span>
 - Возможность крафтить [зелья изменения роста](/wiki/32-custom-crafts#%D0%B7%D0%B5%D0%BB%D1%8C%D0%B5-%D1%80%D0%B0%D1%81%D1%86%D0%B2%D0%B5%D1%82%D0%B0)
 - Огромный респект от администрации :)
 

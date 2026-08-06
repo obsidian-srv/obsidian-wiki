@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'ObsidianMC',
   description: 'Вики сервера ObsidianMC',
   lang: 'ru-RU',
+  cleanUrls: true,
 
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
