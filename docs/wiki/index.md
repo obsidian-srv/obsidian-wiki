@@ -24,6 +24,6 @@ title: 💻 О сервере
 
 - **Discord:** [**obsi.pw/discord**](https://obsi.pw/discord)
 - **HotMC:** [**obsi.pw/hotmc**](https://obsi.pw/hotmc)
-- **WorldMap:** [**obsi.pw/map**](https://obsi.pw/map) / [**map.obsi.pw**](http://map.obsi.pw:25863/)
+- **WorldMap:** [**obsi.pw/map**](https://obsi.pw/map)
 - **TikTok:** [**tiktok.com/@obsid.pw**](https://www.tiktok.com/@obsid.pw)
 - **Магазин:** [**donate.obsi.pw**](https://donate.obsi.pw/)
