@@ -17,4 +17,4 @@ onMounted(() => {
 })
 </script>
 
-<p>Перенаправление на <a href="https://discord.gg/PRsfQpX3yu">hotmc.ru</a>...</p>
+<p>Перенаправление на <a href="https://discord.gg/PRsfQpX3yu">discord</a>...</p>

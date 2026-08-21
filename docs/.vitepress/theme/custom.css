@@ -494,3 +494,34 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Рецепт с картинкой справа */
+.item-with-image {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.item-with-image .item-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.item-with-image figure {
+  flex-shrink: 0;
+  margin: 0 !important;
+  margin-top: 24px !important; /* опускает картинку относительно текста */
+  text-align: left;
+}
+
+.item-with-image figure img {
+  margin: 0 !important;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .item-with-image {
+    flex-direction: column;
+  }
+}
