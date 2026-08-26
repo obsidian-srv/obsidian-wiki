@@ -54,7 +54,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Коньяк Купитмана:**</span>  
+<span class="inline-badge badge-purple">**Идеальный Коньяк Купитмана:**</span>  
 **Ингредиенты:** 20 светящихся ягод\
 **Ферментация:** 12 минут\
 **Циклы дистилляции:** 2\
@@ -69,7 +69,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Ликер "Медный":**</span>  
+<span class="inline-badge badge-purple">**Чудесный Ликер "Медный":**</span>  
 **Ингредиенты:** 5 какао бобов, 3 травы, 2 бутылки меда, 2 ведра молока, 1 медный слиток\
 **Ферментация:** 30 минут\
 **Выдержка:** 2 года в дубовой бочке\
@@ -102,7 +102,7 @@ description: >-
 **Ферментация:** 10 минут\
 **Циклы дистилляции:** 5\
 **Выдержка:** 1 год в дубовой бочке\
-**Опьянение, эффекты:** 40 единиц, отравление II (30 сек.)
+**Опьянение, эффекты:** 40 единиц, отравление III (30 сек.)
 
 </div>
 <figure>
@@ -113,7 +113,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Клюквенная настойка "Сябры":**</span>  
+<span class="inline-badge badge-purple">**Свежайшая Клюквенная настойка "Сябры":**</span>  
 **Ингредиенты:** 32 сладкие ягоды\
 **Ферментация:** 15 минут\
 **Циклы дистилляции:** 1\
@@ -128,7 +128,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Красный чай "Хун ча":**</span>  
+<span class="inline-badge badge-purple">**Идеальный Красный чай "Хун ча":**</span>  
 **Ингредиенты:** 7 травы, 3 сахара, 10 сладких ягод, 1 бутылка меда\
 **Ферментация:** 10 минут\
 **Циклы дистилляции:** 1\
@@ -144,8 +144,8 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Вишневое вино:**</span>  
-**Ингредиенты:** 16 листочков вишни, 8 сахара, 4 сладкие ягоды\
+<span class="inline-badge badge-purple">**Изысканное Вишневое вино:**</span>  
+**Ингредиенты:** 16 лепестков вишни, 8 сахара, 4 сладкие ягоды\
 **Ферментация:** 5 минут\
 **Выдержка:** 3 года в вишневой бочке\
 **Опьянение, эффекты:** 8 единиц, плавное падение I (3:00)
@@ -159,7 +159,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Азалиевая водка:**</span>  
+<span class="inline-badge badge-purple">**Крепкая Азалиевая водка:**</span>  
 **Ингредиенты:** 10 цветущей азалии, 5 картофеля\
 **Ферментация:** 15 минут\
 **Циклы дистилляции:** 5\
@@ -175,7 +175,7 @@ description: >-
 <div class="item-text">
 
 <span class="inline-badge badge-purple">**Светящийся ягодный радлер:**</span>  
-**Ингредиенты:** 6 пшеницы, 6 светящихся ягод, 4 сладких ягод\
+**Ингредиенты:** 6 пшеницы, 8 светящихся ягод, 4 сладких ягод\
 **Ферментация:** 8 минут\
 **Выдержка:** 2 года в дубовой и темно-дубовой бочке\
 **Опьянение, эффекты:** 5 единиц, свечение I (0:15), огнестойкость I (1:00)
@@ -189,7 +189,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Бодяга "Ржавый нерв":**</span>  
+<span class="inline-badge badge-purple">**Ароматная Бодяга "Ржавый нерв":**</span>  
 **Ингредиенты:** 16 гнилой плоти, 4 чернильных мешков, 4 гнилого картофеля, 1 сладкая ягода\
 **Ферментация:** 20 минут\
 **Циклы дистилляции:** 4\
@@ -221,7 +221,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Великолепный синий чай:**</span>  
+<span class="inline-badge badge-purple">**Великолепный Синий чай:**</span>  
 **Ингредиенты:** 6 васильков, 2 сахара, 3 листа бледного дуба\
 **Ферментация:** 3 минуты\
 **Опьянение, эффекты:** 0 единиц, сопротивление III (0:15)
@@ -235,8 +235,8 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Пиво "Eisbock":**</span>  
-**Ингредиенты:** 16 пшеницы, 2 сахара, 4 спрессованного льда\
+<span class="inline-badge badge-purple">**Чудесное Пиво "Eisbock":**</span>  
+**Ингредиенты:** 16 пшеницы, 2 сахара, 4 плотного льда\
 **Ферментация:** 10 минут\
 **Циклы дистилляции:** 1\
 **Выдержка:** 3 года в дубовой бочке\
@@ -266,11 +266,11 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Чай "Глубины войда":**</span>  
-**Ингредиенты:** 5 сахара, 15 листьев темного дуба, 1 скверна\
+<span class="inline-badge badge-purple">**Изысканный Чай "Глубины войда":**</span>  
+**Ингредиенты:** 5 сахара, 15 листьев темного дуба, 1 скалк\
 **Ферментация:** 20 минут\
 **Выдержка:** 1 год в темно-дубовой бочке\
-**Опьянение, эффекты:** 4 единиц, регенерация I (1:30), удача I (5:00)
+**Опьянение, эффекты:** 4 единиц, регенерация I (1:30)
  
 </div>
 <figure>
@@ -281,11 +281,11 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Арбузно-свекольный фреш:**</span>  
-**Ингредиенты:** 12 ломтиков арбуза, 6 свеклы, 2 сахара, 4 спрессованного льда\
+<span class="inline-badge badge-purple">**Чудесный Арбузно-свекольный фреш:**</span>  
+**Ингредиенты:** 12 ломтиков арбуза, 6 свеклы, 2 сахара, 4 плотного льда\
 **Ферментация:** 2 минуты\
 **Циклы дистилляции:** 1\
-**Опьянение, эффекты:** 0 единиц, регенерация I (0:30)
+**Опьянение, эффекты:** 0 единиц, исцеление I
  
 </div>
 <figure>
@@ -296,7 +296,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Шикарная бамбуковая настойка:**</span>  
+<span class="inline-badge badge-purple">**Шикарная Бамбуковая настойка:**</span>  
 **Ингредиенты:** 16 бамбука, 6 тыквенных семян, 2 пшеницы\
 **Ферментация:** 10 минут\
 **Циклы дистилляции:** 1\
@@ -312,7 +312,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Прекрасная бразильская кашаса:**</span>  
+<span class="inline-badge badge-purple">**Прекрасная Бразильская кашаса:**</span>  
 **Ингредиенты:** 32 тростника\
 **Ферментация:** 10 минут\
 **Циклы дистилляции:** 2\
@@ -328,10 +328,10 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Британский чай:**</span>  
+<span class="inline-badge badge-purple">**Ароматный Английский чай:**</span>  
 **Ингредиенты:** 6 листьев дуба, 2 сахара, 1 ведро молока\
 **Ферментация:** 2 минуты\
-**Опьянение, эффекты:** 0 единиц, удача I (3:00)
+**Опьянение, эффекты:** 0 единиц, везение I (3:00)
  
 </div>
 <figure>
@@ -385,7 +385,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Двойной коктель "67":**</span>  
+<span class="inline-badge badge-purple">**Крутой Двойной коктейль "67":**</span>  
 **Ингредиенты:** 6 тропических рыбок, 7 светящихся чернильных мешков, 6 иглобрюхов, 7 золотых яблок, 6 блоков меда, 7 медных самородков\
 **Ферментация:** 6 минут\
 **Циклы дистилляции:** 7\
