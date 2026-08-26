@@ -189,7 +189,7 @@ description: >-
 <div class="item-with-image">
 <div class="item-text">
 
-<span class="inline-badge badge-purple">**Ароматная Бодяга "Ржавый нерв":**</span>  
+<span class="inline-badge badge-purple">**Ядреная Бодяга "Ржавый нерв":**</span>  
 **Ингредиенты:** 16 гнилой плоти, 4 чернильных мешков, 4 гнилого картофеля, 1 сладкая ягода\
 **Ферментация:** 20 минут\
 **Циклы дистилляции:** 4\
